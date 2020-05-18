@@ -1,3 +1,4 @@
-import loadingScreen from './loadingScreen.js'
+import LoadingScreen from './loadingScreen.js'
 
-loadingScreen()
+const loadingScreen = new LoadingScreen();
+loadingScreen.startAnimating();
