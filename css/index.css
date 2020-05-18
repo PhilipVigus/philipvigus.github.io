@@ -32,16 +32,19 @@ body {
 .loading-screen {
   align-items: flex-start;
   background-color: black;
-  color: white;
   display: flex;
   flex-direction: column;
-  font-family: 'Ubuntu Mono', sans-serif;
-  font-size: 3rem;
   height: 100%;
   justify-content: flex-end;
   left: 0;
   position: fixed;
   top: 0;
-  white-space: pre; /* preserve whitespace */
   width: 100%;
+}
+
+.loading-screen-text {
+  color: white;
+  font-family: 'Ubuntu Mono', sans-serif;
+  font-size: 3rem;
+  margin: 30px;
 }
